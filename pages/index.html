@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWSCC - PCUD</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Link to your custom styles.css -->
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Header -->
+    <header class="bg-blue-900 text-white p-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">AWSCC - PCUD</h1>
+            <nav>
+                <a href="#about" class="text-lg ml-6 hover:underline">About</a>
+                <a href="#gallery" class="text-lg ml-6 hover:underline">Gallery</a>
+                <a href="#contact" class="text-lg ml-6 hover:underline">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero bg-cover bg-center h-screen flex items-center justify-center text-center" style="background-image: url('/assets/landing-bg.png');">
+        <div class="text-white">
+            <h2 class="text-5xl font-extrabold">Welcome to AWSCC - PCUD</h2>
+            <p class="mt-4 text-xl">Empowering the Cloud Innovators of Tomorrow</p>
+        </div>
+    </section>
+
+    <!-- Who Are We? Section -->
+    <section id="about" class="py-20 bg-white text-center">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-semibold">Who Are We?</h2>
+            <p class="mt-4 text-lg">We are the AWS Cloud Club at PCU, dedicated to empowering students with cloud technologies.</p>
+            <a href="#learn-more" class="mt-6 inline-block text-lg bg-blue-900 text-white py-2 px-6 rounded-full">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-gray-100 text-center">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-semibold">Gallery</h2>
+            <div class="grid grid-cols-3 gap-4 mt-10">
+                <div class="gallery-item">
+                    <img src="/assets/event-1.jpg" alt="Event 1" class="w-full h-64 object-cover rounded-lg">
+                    <p class="mt-2 text-sm">AWSome Cloud Club Launch</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="/assets/event-2.jpg" alt="Event 1" class="w-full h-64 object-cover rounded-lg">
+                    <p class="mt-2 text-sm">Unveiling the Cloud</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="/assets/event-3.jpg" alt="Event 1" class="w-full h-64 object-cover rounded-lg">
+                    <p class="mt-2 text-sm">Inspire to Aspire AWSome Journey</p>
+                </div>
+                <!-- Add more gallery items here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-blue-900 text-white py-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <p class="text-sm">&copy; 2024 AWSCC - PCUD. All rights reserved.</p>
+            <div class="mt-4">
+                <a href="#" class="text-lg hover:underline">Facebook</a>
+                <a href="#" class="text-lg ml-4 hover:underline">Twitter</a>
+                <a href="#" class="text-lg ml-4 hover:underline">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

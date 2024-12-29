@@ -14,7 +14,7 @@
 }
 
 #about a:hover {
-    background-color: #3b82f6; /* Blue color for the button hover */
+    background-color: black; /* Blue color for the button hover */
 }
 
 /* Gallery Section */
@@ -28,7 +28,7 @@
 
 /* Footer Section */
 footer {
-    background-color: #1e40af; /* Blue background */
+    background-color: black; /* Blue background */
 }
 
 /* Custom Font Size and Spacing */
